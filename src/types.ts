@@ -3,7 +3,6 @@ export type PageId =
   | 'about'
   | 'courses'
   | 'results'
-  | 'portal'
   | 'gallery'
   | 'admissions'
   | 'contact';
