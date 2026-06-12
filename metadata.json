@@ -1,6 +1,6 @@
 {
   "name": "Krishna Tutorials",
-  "description": "Comprehensive and highly interactive website for Krishna Tutorials, featuring portals for academic tracking, course guides, toppers achievement lists, photo gallery, online admissions, and contact details.",
+  "description": "Comprehensive and highly interactive website for Krishna Tutorials, featuring course guides, toppers achievement lists, beautiful photo gallery, online admissions, and contact details.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
