@@ -8,7 +8,6 @@ import { ResultsSection } from './components/ResultsSection';
 import { GallerySection } from './components/GallerySection';
 import { AdmissionsSection } from './components/AdmissionsSection';
 import { ContactSection } from './components/ContactSection';
-import { StudentPortalSection } from './components/StudentPortalSection';
 import { Logo } from './components/Logo';
 import { seedInitialDatabaseIfEmpty } from './lib/dbService';
 import { 
@@ -46,8 +45,6 @@ export default function App() {
         );
       case 'results':
         return <ResultsSection />;
-      case 'portal':
-        return <StudentPortalSection />;
       case 'gallery':
         return <GallerySection />;
       case 'admissions':
@@ -143,13 +140,6 @@ export default function App() {
                 className="hover:text-white transition-colors text-left flex items-center gap-1 cursor-pointer"
               >
                 Results
-                <ArrowUpRight size={10} className="opacity-50" />
-              </button>
-              <button 
-                onClick={() => setActivePage('portal')} 
-                className="hover:text-white transition-colors text-left flex items-center gap-1 cursor-pointer"
-              >
-                Student Portal
                 <ArrowUpRight size={10} className="opacity-50" />
               </button>
               <button 
