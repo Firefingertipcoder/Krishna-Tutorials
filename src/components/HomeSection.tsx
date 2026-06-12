@@ -263,15 +263,15 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onPageChange }) => {
               <GraduationCap size={28} className="stroke-[2.5]" />
             </div>
             <div>
-              <h3 className="text-xl font-bold bg-gradient-to-r from-white via-sky-100 to-teal-105 bg-clip-text text-transparent">Are you tracking your study statistics online?</h3>
-              <p className="text-xs text-slate-300 leading-relaxed mt-1">Access real-time dynamic scores, homework drills, and daily progress analytics with student roll number credentials on our portal.</p>
+              <h3 className="text-xl font-bold bg-gradient-to-r from-white via-sky-100 to-teal-105 bg-clip-text text-transparent">Ready to begin your academic merit journey?</h3>
+              <p className="text-xs text-slate-300 leading-relaxed mt-1">Enroll online today or schedule a one-on-one session to evaluate scholarship eligibility up to 80% waiver.</p>
             </div>
           </div>
           <button
-            onClick={() => onPageChange('portal')}
+            onClick={() => onPageChange('admissions')}
             className="w-full sm:w-auto bg-gradient-to-r from-sky-400 to-teal-300 hover:from-sky-500 hover:to-teal-400 text-slate-950 text-xs font-black tracking-wider uppercase py-3.5 px-7 rounded-xl shadow-lg transition-transform duration-100 hover:scale-[1.02] active:scale-95 text-center cursor-pointer"
           >
-            Check Student Progress →
+            Apply for Scholarship →
           </button>
         </div>
       </section>
